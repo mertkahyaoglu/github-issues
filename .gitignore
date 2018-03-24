@@ -1,0 +1,11 @@
+.sass-cache/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+npm-debug.log*
+node_modules
+.DS_Store

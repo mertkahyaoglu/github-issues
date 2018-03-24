@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component/Assignee renders markup correctly 1`] = `
+<a
+  className="sc-bwzfXH kdDOvI"
+  href="https://github.com/mertkahyaoglu"
+  target="_blank"
+>
+  <img
+    alt="mertkahyaoglu"
+    className="sc-bdVaJa jrKHmD"
+    src="https://avatars0.githubusercontent.com/u/7414026?v=4"
+  />
+</a>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component/Status renders markup correctly 1`] = `
+<a
+  className="sc-bdVaJa bNnuZ"
+  color="bfd4f2"
+  href="https://api.github.com/repos/jekyll/jekyll-admin/labels/stale"
+  target="_blank"
+>
+  stale
+</a>
+`;

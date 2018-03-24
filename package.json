@@ -1,0 +1,57 @@
+{
+  "name": "github-issues",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "http://mertkahyaoglu.github.io/github-issues",
+  "dependencies": {
+    "fetch-mock": "^6.3.0",
+    "history": "^4.7.2",
+    "isomorphic-fetch": "^2.2.1",
+    "polished": "^1.9.2",
+    "prop-types": "^15.6.0",
+    "query-string": "^5.0.0",
+    "react": "^16.2.0",
+    "react-async-component": "^1.0.1",
+    "react-click-outside": "tj/react-click-outside",
+    "react-dom": "^16.2.0",
+    "react-icons": "^2.2.7",
+    "react-loadable": "^5.3.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "recompose": "^0.25.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.6.2",
+    "babel-plugin-styled-components": "^1.2.1",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.8.0",
+    "eslint-plugin-react": "^7.6.1",
+    "gh-pages": "^1.1.0",
+    "lint-staged": "^4.2.3",
+    "prettier": "^1.7.4",
+    "react-app-rewired": "^1.3.1",
+    "react-scripts": "1.0.14",
+    "react-test-renderer": "^16.2.0",
+    "redux-mock-store": "^1.5.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --single-quote --trailing-comma es5 --print-width 100 --write",
+      "git add"
+    ]
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./src/setupTests.js"
+  }
+}

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component/Dropdown renders markup correctly 1`] = `
+<div
+  className="sc-bdVaJa eczwIr"
+>
+  <div
+    className="sc-bwzfXH ZQJAD"
+  >
+    <div
+      className="sc-htpNat hRQaLl"
+    >
+      Sort by label
+       
+      <span
+        className="sc-bxivhb gIEwYI"
+        onClick={[Function]}
+      >
+        x
+      </span>
+    </div>
+    <div
+      className="sc-ifAKCX bAgXMY"
+    >
+      <a
+        className="sc-EHOje frrveb"
+        onClick={[Function]}
+      >
+        <span>
+          stale
+        </span>
+      </a>
+      <a
+        className="sc-EHOje frrveb"
+        onClick={[Function]}
+      >
+        <span>
+          api
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+`;
