@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { bindActionCreators, compose } from 'redux';
+import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import Check from 'react-icons/lib/fa/check';
 import ExclamationIcon from 'react-icons/lib/fa/exclamation-circle';

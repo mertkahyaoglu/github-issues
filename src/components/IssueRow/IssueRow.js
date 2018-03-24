@@ -6,6 +6,7 @@ import CommentIcon from 'react-icons/lib/fa/comment';
 import Status from 'components/Status';
 import Label from 'components/Label';
 import Assignee from 'components/Assignee';
+import { timeDifference } from 'utils/helpers';
 
 export default class IssueRow extends Component {
   static propTypes = {
@@ -42,7 +43,10 @@ export default class IssueRow extends Component {
             )}
           </TitleWrapper>
           <Meta>
-            {`#${data.number} opend on ${data.created_at} by`}{' '}
+            {`#${data.number} opend on ${timeDifference(
+              +new Date(),
+              +new Date(data.created_at)
+            )} by`}{' '}
             <UserLink href={data.user.html_url} target="_blank">
               {data.user.login}
             </UserLink>
